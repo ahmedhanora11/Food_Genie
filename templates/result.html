@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Specify the favicon file -->
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <title>FG - Food Genie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* Specify the background image URL */
+            background-image: url('/static/bg8.jpg');
+            /* Set background image properties */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Set transparency to 80% */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            margin-top: 10px;
+            color: #000; /* Change color to black */
+            line-height: 1.5; /* Increase line spacing */
+        }        
+        p:before {
+            content: "\2022"; /* Unicode for bullet point */
+            margin-right: 10px;
+            color: #007bff; /* Bullet point color */
+            font-size: 20px; /* Increase bullet point size */
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Styles for the logo */
+        .logo {
+            width: 140;
+            height: 140px;
+            margin: 0 auto; /* Center the logo horizontally */
+            display: block; /* Ensure it's displayed as a block element */
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <img src="/static/logo.png" alt="Food Genie Logo" class="logo">
+    <div class="container">
+        <h2>AI Generated Answer:</h2>
+        <p>{{ generated_text }}</p>
+        <a href="/">Ask more</a>
+    </div>
+</body>
+</html>
