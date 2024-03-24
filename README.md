@@ -24,16 +24,15 @@ https://ahmedhanora11.pythonanywhere.com/
 
 ![App Screenshot](https://i.ibb.co/YXqm2kH/q.png)
 
-![App Screenshot](https://i.ibb.co/LRqt1pR/w.png)
-
 ![App Screenshot](https://i.ibb.co/PmpJvcR/e.png)
 
 ![App Screenshot](https://i.ibb.co/9g4HLqd/r.png)
 
-![App Screenshot](https://i.ibb.co/9n4GBfX/t.png)
+[![t.png](https://i.postimg.cc/cLP8yXdc/t.png)](https://postimg.cc/w1cBD5yt)
+
 ## Presentation Slides
 
-Visit:
+Visit: https://drive.google.com/file/d/1oH9Czq4CE_USUTq-445cwB2ID9W8p7Iz/view?usp=sharing
 
 
 
