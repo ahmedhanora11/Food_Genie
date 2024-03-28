@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/Czkg9Wn/logo.png" alt="Logo" width="200px">
+  <img src="https://i.postimg.cc/CxFGvq7x/Food-Genie.png" alt="Logo" width="200px">
 </p>
 
 # Food_Genie
